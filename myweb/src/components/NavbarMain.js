@@ -1,7 +1,6 @@
 import React from 'react'
 import {Link } from 'react-router-dom'
 import icon from '../icon home.png'
-import styled from 'styled-components'
 import {Navbar, Nav, Form, FormControl, Button} from 'react-bootstrap'
 
 function NavbarMain(){
@@ -22,6 +21,3 @@ function NavbarMain(){
 }
 export default NavbarMain;
 
-const ButtonContainer = styled.button`
-text-transformation:capitalized
-`

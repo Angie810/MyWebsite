@@ -1,5 +1,4 @@
 import React from 'react'
-import {Switch, Route} from 'react-router-dom';
 import './about.css'
 import {Container, Row, Image, Col} from 'react-bootstrap'
 import icon from '../india.jpg'

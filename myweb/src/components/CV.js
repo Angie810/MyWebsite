@@ -1,5 +1,4 @@
 import React from 'react'
-import { Document, Page } from "react-pdf";
 import './CV.css'
 import {Container, Row, Col, Button} from 'react-bootstrap'
 import pdf from '../angiecv.pdf'

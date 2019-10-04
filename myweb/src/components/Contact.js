@@ -1,8 +1,6 @@
 import React from 'react'
 import '../App.css'
-import icon from '../insta.jpg'
 import './contact.css'
-import image from '../sea.jpg'
 import {Card} from 'react-bootstrap'
 
 
