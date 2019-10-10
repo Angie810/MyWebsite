@@ -33,7 +33,7 @@ class CV extends React.Component{
                <li>JavaScript</li>
                <li>React</li>
                <li>CSS</li>
-               <li>NVC</li>
+               <li>MVC</li>
                <li>Scrum/Agile Methodology</li>
                <li>UX/UI</li>
                <li>Bootstrap</li>

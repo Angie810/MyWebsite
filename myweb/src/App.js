@@ -1,18 +1,30 @@
 import React from 'react';
 import './App.css';
 import NavbarMain from './components/NavbarMain'
-import { Switch, Route } from 'react-router-dom'
+import { Switch, Route, Link } from 'react-router-dom'
 import CV from './components/CV'
 import About from './components/About'
 import Portfolio from './components/Portfolio'
 import Home from './components/Home'
 import Contact from './components/Contact'
+import icon from './icon home.png'
 
 
 function App() {
   return (
    <React.Fragment> 
-   <NavbarMain />
+   {/* <NavbarMain /> */}
+  
+   <nav className="navbar navbar-light bg-light">
+     <div className="container-navbar">
+     <Link className="navbar-brand" to="/"><img src={icon} alt="home" width={30} height={25}/></Link>
+  <Link className="navbar-brand" to="/CV">CV</Link>
+  <Link className="navbar-brand" to="/Portfolio">Portfolio</Link>
+  <Link className="navbar-brand" to="/About">About</Link>
+  <Link className="navbar-brand" to="/Contact">Contact</Link>
+  </div>
+</nav>
+     
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/CV" component={CV} />
@@ -22,8 +34,7 @@ function App() {
       </Switch>
      
         
-       
-           
+      
            
         <div className="footer">
         <h2>Mobile: 072-316 55 76</h2>
