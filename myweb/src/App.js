@@ -8,6 +8,7 @@ import Portfolio from './components/Portfolio'
 import Home from './components/Home'
 import Contact from './components/Contact'
 import icon from './icon home.png'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -36,12 +37,12 @@ function App() {
         
       
            
-        <div className="footer">
+        {/* <div className="footer">
         <h2>Mobile: 072-316 55 76</h2>
         <h2>Email: angie.granberg@gmail.com</h2>
-        </div>
+        </div> */}
             
-    
+    <Footer />
         
      </React.Fragment>
   );
